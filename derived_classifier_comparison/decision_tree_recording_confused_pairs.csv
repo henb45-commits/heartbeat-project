@@ -1,0 +1,10 @@
+person_a,person_b,a_to_b,b_to_a,total
+Person_33,Person_45,1,1,2
+Person_02,Person_65,1,0,1
+Person_06,Person_62,1,0,1
+Person_10,Person_31,1,0,1
+Person_11,Person_14,0,1,1
+Person_33,Person_44,0,1,1
+Person_33,Person_67,0,1,1
+Person_62,Person_70,0,1,1
+Person_63,Person_82,1,0,1

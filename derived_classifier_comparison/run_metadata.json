@@ -1,0 +1,51 @@
+{
+  "seed": 42,
+  "averaging": "macro",
+  "zero_division": 0,
+  "recording_aggregation": "mean predicted class probabilities",
+  "input_sha256": {
+    "beats.csv.gz": "43e33f84d08ae8175863d01b9b5079ff1dd9307d18f3fc8840d2e01577efd52a",
+    "split_manifest.csv": "bd889211149a6a2fc99414f59f097089f5c50af25693d7dc555c99d037ad43f4"
+  },
+  "train_recordings": 206,
+  "test_recordings": 102,
+  "train_beats": 5148,
+  "test_beats": 2588,
+  "python": "3.15.1",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "parameters": {
+    "Logistic Regression": {
+      "C": 1,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 3000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Decision Tree": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    }
+  }
+}
